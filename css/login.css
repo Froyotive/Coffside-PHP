@@ -22,9 +22,9 @@
 .login-card .card-body {
   padding: 85px 60px 60px;
 }
-@media (max-width: 422px) {
+@media (max-width: 202px) {
   .login-card .card-body {
-    padding: 35px 24px;
+    padding: 30px 24px;
   }
 }
 .login-card-description {
@@ -34,7 +34,7 @@
   margin-bottom: 23px;
 }
 .login-card form {
-  max-width: 326px;
+  max-width: 5006px;
 }
 .login-card .form-control {
   border: 1px solid #d5dae2;
@@ -62,7 +62,7 @@
 }
 .login-card .login-btn {
   padding: 13px 20px 12px;
-  background-color: #000;
+  background-color: #265171;
   border-radius: 4px;
   font-size: 17px;
   font-weight: bold;
@@ -95,4 +95,7 @@
   color: #919aa3;
 }
 
-/*# sourceMappingURL=login.css.map */
+/* .login-form {
+  max-width: 200px;
+  margin: 0 auto;
+} */

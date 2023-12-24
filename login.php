@@ -33,8 +33,8 @@
                     </div>
                     <div class="col-md-7">
                         <div class="card-body">
-                            <p class="login-card-description">Sign into your account</p>
-                            <form action="#!">
+                            <p class="login-card-description text-center">Sign into your account</p>
+                            <form action="controller/login.php" class="login-form">
                                 <div class="form-group">
                                     <label for="email" class="sr-only">Email</label>
                                     <input type="email" name="email" id="email" class="form-control"
@@ -48,8 +48,8 @@
                                 <input name="login" id="login" class="btn btn-block login-btn mb-4" type="button"
                                     value="Login" />
                             </form>
-                            <a href="#!" class="forgot-password-link">Forgot password?</a>
-                            <p class="login-card-footer-text">Don't have an account? <a href="register.php"
+                            <p href="#!" class="forgot-password-link text-end">Forgot password?</p>
+                            <p class="login-card-footer-text text-center">Don't have an account? <a href="register.php"
                                     class="text-reset">Register here</a></p>
                         </div>
                     </div>
